@@ -14,21 +14,19 @@
     <a href="htmlexam.html">Home</a>
     <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="mobileno" pattern="[0-9]{10}">Mobile No:</label>
-        <input type="text" id="mobileno" name="mobileno" pattern="[0-9]{10}"><br><br>
-
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="mobileno "pattern="[0-9]{10}">Mobile No:</label>
+        <input type="tel" id="mobileno" name="mobileno" pattern="[0-9]{10}" required><br><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" ><br><br>
+        <input type="email" id="email" name="email" required><br><br>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br><br>
+        <textarea id="message" name="message" required></textarea><br><br>
 
        
         <br>
             <label for="communication">type of communication:</label>
             <select id="communication" name="communication">
-            <option value="">--Select a Communication Type--</option>
             <option value="sales">sales</option>
             <option value="service">Service</option>
             <option value="enquiry">Enquiry</option>
